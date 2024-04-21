@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+<main class="main" id="main">
+
+  <!-- Sign-up form start -->
+  
+  <div class="card">
+    <div class="left">
+
+      <h1 class="header">Stay updated!</h1>
+      <p class="phar mb-24">Join 60,000+ product managers receiving monthly<br> updates on:</p>
+    <div class="cont"><img src="assets/images/icon-list.svg" alt="" class="nike"><p class="phar">Product discovery and building what matters</p></div>
+    <div class="cont"><img src="assets/images/icon-list.svg" alt="" class="nike"><p class="phar">Measuring to ensure updates are a success</p></div>
+    <div class="cont mb-24"><img src="assets/images/icon-list.svg" alt="" class="nike"><p class="phar">And much more!</p></div>
+    <form action="" class="form">
+      <div class="label-cont">
+        <label class="label" for="email">Email address</label>
+        <div class="error"></div>
+      </div>
+      <input type="text" id="email" class="email" name="email" placeholder="email@company.com">
+      <button class="btn mb-24">Subscribe to monthly newsletter</button>
+    </form>
+  </div>
+  <div class="right">
+    <picture class="hero-image">
+      <source srcset="assets/images/illustration-sign-up-mobile.svg" media="(max-width: 992px)">
+      <img src="assets/images/illustration-sign-up-desktop.svg" alt="" class="" id="img-1">
+    </picture>
+  </div>
+  </div>
+
+  <!-- Sign-up form end -->
+
+  <!-- Success message start -->
+
+  <div class="message">
+    <div class="message-body">
+      <img src="assets/images/icon-success.svg" alt="" class="success-img">
+      <h2 class="sub-header">Thanks for subscribing!</h2>
+      <p class="phar mb-24">
+        A confirmation email has been sent to ash@loremcompany.com.
+        Please open it and click the button inside to confirm your subscription.</p>
+    </div>
+    <button id="success" class="btn full">Dismiss message</button>
+  </div>
+  
+  <!-- Success message end -->
+  
+</main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Saša Dušić</a>.
+  </div>
+</body>
+</html>
